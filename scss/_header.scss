@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+$color-fondo: #eee;
+$colorArriba:#18516b;
+$colorAbajo:#126985;
+@mixin gradient($colorArriba,
+$colorAbajo,
+$orientacion) {
+    background: $colorArriba;
+    @if $orientacion=='vertical' {
+        background: -webkit-linear-gradient(top, $colorArriba, $colorAbajo);
+        background: linear-gradient(to bottom, $colorArriba, $colorAbajo);
+    }
+    @else if $orientacion=='horizontal' {
+        background: -webkit-linear-gradient(left, $colorArriba, $colorAbajo);
+        background: linear-gradient(to right, $colorArriba, $colorAbajo);
+    }
+    @else {
+        background: -webkit-radial-gradient(center, ellipse cover, $colorArriba, $colorAbajo);
+        background: radial-gradient(ellipse at center, $colorArriba, $colorAbajo);
+    }
+}
+
+body {
+    background-color: $color-fondo;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    color: $color-fondo;
+}
+
+nav {
+    @include gradient($colorAbajo,
+    $colorArriba,
+    vertical);
+    padding: 10em;
+}
+
+.nav-link {
+    color: $color-fondo;
+}
