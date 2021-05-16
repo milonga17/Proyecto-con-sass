@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 $color-fondo: #eee;
 $colorArriba:#18516b;
 $colorAbajo:#126985;
@@ -27,6 +27,7 @@ body {
 a {
     font-family: 'Poppins', sans-serif;
     color: $color-fondo;
+    font-weight: 600;
 }
 
 nav {

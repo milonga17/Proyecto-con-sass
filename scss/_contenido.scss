@@ -12,19 +12,61 @@ div.imagen.col.d-flex.justify-content-end {
 }
 
 a.contact.btn.btn-primary {
-    margin-left: 18em;
-}
-
-.div.text.col-12 {
-    p {
-        text-align: center;
+    margin-left: 1.5em;
+    .div.text.col-12 {
+        p {
+            text-align: center;
+        }
+    }
+    .contact__map {
+        margin-left: 2em;
+    }
+    .form__contact {
+        margin-right: 4em;
     }
 }
 
-.contact__map {
-    margin-left: 4em;
+.row.gallery {
+    margin: 1.5em;
 }
 
-.form__contact {
-    margin-right: 4em;
+.row.nosotros.description {
+    margin: 1.5em;
+    text-align: center;
+}
+
+.row.nosotros.values {
+    margin: 1.5em;
+    h5 {
+        text-align: left;
+    }
+}
+
+.row.cards.values {
+    margin: 1.5em;
+}
+
+.row.row-cols-1.row-cols-md-3.g-4.services {
+    margin: 1.5em;
+}
+
+.row.contact.description {
+    margin: 1.5em;
+    text-align: center;
+}
+
+.row.contact.content {
+    margin: 1.5em;
+}
+
+.row.row-cols-1.row-cols-md-3.g-4.home.services {
+    margin: 1.5em;
+}
+
+.col.home.landing {
+    text-align: center;
+    h6 {
+        font-size: 1.5em;
+        margin-top: 7em;
+    }
 }

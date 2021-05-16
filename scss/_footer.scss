@@ -5,19 +5,43 @@ $colorAbajo:#126985;
 h4 {
     font-family: 'Poppins', sans-serif;
     color: $color-fondo;
-    margin-left: 2em;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    font-size: 1.2em;
+    font-weight: 600;
 }
+
 
 footer {
     background: linear-gradient($colorArriba, $colorAbajo);
     font-family: 'Poppins', sans-serif;
+ h6 {
+    
+    color: $color-fondo;
+    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-bottom:0;
+    text-align:center;
+   
+       }
+
+
     ul {
         list-style: none;
+        margin-top: 1em;
+        margin-bottom: 1em;
         li {
             color: $color-fondo;
+            a {
+                font-weight: 200;
+                text-decoration: none;
+            }
         }
     }
     p {
+        align-content: center;
         color: $color-fondo;
+        align-self: center;
     }
+  
 }
